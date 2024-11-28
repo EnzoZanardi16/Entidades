@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_database</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    body{
+        background: linear-gradient(to right , #5D2973, #000);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    main{
+        width: 50%;
+        height: 25%;
+        padding: 20px;
+        background: #752DA6;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    }
+legend{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+fieldset div {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin: 2%;
+    
+}
+main fieldset fieldset{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+ a .entidades{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background: #291340;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid black;
+font-size: 20px;
+}
+a .entidades:hover{
+    background-color: #210C38;
+    color: white;
+    transform: translateX(5px);
+    
+    transition-duration: 0.5s;
+}
+</style>
+<body>
+    <main>
+        <fieldset>
+            <legend>
+                Selecione uma entidade para prencher
+            </legend>
+          
+               <div>
+                <a href="usuario.html"><button class="entidades">
+                    Usuário
+               </button></a>
+               <a href="categorias.html"><button class="entidades">
+                    Categotrias
+               </button></a>
+            </div>
+               <div>
+               <a href="Turmas.html"><button class="entidades">
+                    Turmas
+               </button></a>
+               <a href=""><button class="entidades">
+                    Contagem
+               </button></a>
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>
